@@ -1,0 +1,73 @@
+
+.App {
+  text-align: center;
+}
+
+.ResultHead{
+  padding: 20px;
+}
+
+.Footer{
+  padding: 20px;
+}
+
+.NetworkClass{
+  font-weight: 500;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+  background-color: #222;
+}
+
+.button{
+  background-color: #222;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.Subnet{
+  font-weight: 500;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+  background-color: #222;
+}
+
+.Ip{
+  color: white;
+  padding-bottom: 20px;
+  font-weight: 500;
+  background-color: #222;
+}
+
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
