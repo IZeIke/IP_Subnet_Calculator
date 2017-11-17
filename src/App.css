@@ -4,6 +4,14 @@
 }
 
 .ResultHead{
+  text-align: center;
+}
+
+.ResultBox{
+  text-align: left;
+}
+
+.ResultHead{
   padding: 20px;
 }
 
