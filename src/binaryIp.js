@@ -1,12 +1,12 @@
 'use strict';
-const isIp = require('is-ip');
+const isIp = require('ip');
 
 module.exports = (input) => {
     if (typeof input !== 'string') {
         throw new TypeError(`Expected a string, got ${typeof input}`);
     }
 
-    if(isIp.v4(input)){
+    if(isIp.isV4Format(input)){
         var fields = input.split('.');
         var f1 = ("00000000" + parseInt(fields[0]).toString(2)).slice(-8);
         var f2 = ("00000000" + parseInt(fields[1]).toString(2)).slice(-8);
