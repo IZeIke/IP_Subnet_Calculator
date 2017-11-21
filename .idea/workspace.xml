@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c8241fc-9dec-4306-8317-e3731098a140" name="Default" comment="" />
+    <list default="true" id="8c8241fc-9dec-4306-8317-e3731098a140" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ipsubnetcal" afterPath="$PROJECT_DIR$/ipsubnetcal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -26,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultBox.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResultBox.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ResultBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="70" column="57" lean-forward="false" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
+            <state relative-caret-position="154">
+              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -38,12 +41,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.css">
+      <file leaf-file-name="ResultBox.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ipsubnetcal/src/ResultBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="572">
+              <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/converter.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/ResultBox.js" />
+        <option value="$PROJECT_DIR$/ipsubnetcal/src/ResultBox.js" />
       </list>
     </option>
   </component>
@@ -102,6 +108,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/ipsubnetcal/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
@@ -131,6 +138,17 @@
             <path>
               <item name="IP_Subnet_Calculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="IP_Subnet_Calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IP_Subnet_Calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IP_Subnet_Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="ipsubnetcal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IP_Subnet_Calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IP_Subnet_Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="ipsubnetcal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IP_Subnet_Calculator" type="b2602c69:ProjectViewProjectNode" />
@@ -181,12 +199,12 @@
       <updated>1510729645433</updated>
       <workItem from="1510729646577" duration="22661000" />
       <workItem from="1510814372992" duration="31711000" />
-      <workItem from="1511278786509" duration="1239000" />
+      <workItem from="1511278786509" duration="1634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55611000" />
+    <option name="totallyTimeSpent" value="56006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -360,14 +378,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/converter.js" />
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1232">
@@ -378,10 +388,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ResultBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="70" column="57" lean-forward="false" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
+        <state relative-caret-position="154">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipsubnetcal/src/ResultBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
